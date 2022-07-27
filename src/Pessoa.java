@@ -5,20 +5,15 @@ public class Pessoa {
     private String cep;
     private String profissao;
     private String cpf;
+    private String tipoConta;
 
-    public Pessoa(String nome, int idade, String cep, String profissao, String cpf) {
-
-        if (idade < 18 || idade > 90) {
-            // Lançar uma exceção?
-            throw new RuntimeException("Idade não aceita");
-
-        } else {
-            this.nome = nome;
-            this.idade = idade;
-            this.cep = cep;
-            this.profissao = profissao;
-            this.cpf = cpf;
-        }
+    public Pessoa(String nome, int idade, String cep, String profissao, String cpf, String tipoConta) {
+        this.nome = nome;
+        this.idade = idade;
+        this.cep = cep;
+        this.profissao = profissao;
+        this.cpf = cpf;
+        this.tipoConta = tipoConta;
 
     }
 
@@ -60,6 +55,10 @@ public class Pessoa {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
+    }
+
+    public String getTipoConta() {
+        return tipoConta;
     }
 
 }

@@ -1,23 +1,43 @@
-public class Conta {
+public abstract class Conta {
 
-    private String nome;
+    private String titular;
     private int numeroConta;
-    private double saldo;
+    protected double saldo;
+    private int agencia;
 
-    public Conta(String nome, int numeroConta, double saldo) {
-
-        this.nome = nome;
+    public Conta(String titular, int numeroConta, int agencia) {
+        this.titular = titular;
         this.numeroConta = numeroConta;
-        this.saldo = saldo;
+        this.agencia = agencia;
 
     }
 
-    public String getNome() {
-        return nome;
+    public void saca(double valor) {
+        if (valor > this.saldo) {
+            throw new RuntimeException("Saldo INSUFICIENTE");
+        } else {
+            this.saldo -= valor;
+        }
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void transfere(double valor, Conta destino) {
+
+        if (valor < this.saldo) {
+            throw new RuntimeException("Saldo INSUFICIENTE");
+        } else {
+            this.saldo -= valor;
+            destino.deposita(valor);
+        }
+    }
+
+    public abstract void deposita(double valor);
+
+    public String getTitular() {
+        return titular;
+    }
+
+    public void setTitular(String titular) {
+        this.titular = titular;
     }
 
     public int getNumeroConta() {
@@ -32,8 +52,12 @@ public class Conta {
         return saldo;
     }
 
-    public void setSaldo(double saldo) {
-        this.saldo = saldo;
+    public int getAgencia() {
+        return agencia;
+    }
+
+    public void setAgencia(int agencia) {
+        this.agencia = agencia;
     }
 
 }
