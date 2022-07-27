@@ -11,24 +11,27 @@ public class Entrada {
     protected String tipoConta;
     Scanner sc = new Scanner(System.in);
 
-    public void entrada() {
+    public void entrada() throws InterruptedException {
         System.out.println("Informe seu nome: ");
         nome = sc.nextLine();
 
         System.out.println("Informe sua idade: ");
         idade = sc.nextInt();
         if (idade < 18 || idade > 90) {
-            // Lançar uma exceção?
+            // Should I throw an Exception?
             throw new RuntimeException("Você deve ser maior de idade (18 anos).");
         }
 
         System.out.println("Informe seu CEP: ");
+        // Here you must write without an "space". Instead of that, use "underline _"
         cep = sc.next();
-
-        System.out.println("Informe sua profissão: ");
+        System.out.println("Informe  sua profissão: ");
+        // Here you must write without an "space". Instead of that, use "underline _"
         profissao = sc.next();
+        Thread.sleep(100);
 
         System.out.println("Informe seu CPF: ");
+        // Here you must write without an "space".
         cpf = sc.next();
 
         System.out.println("Qual conta deseja criar?");

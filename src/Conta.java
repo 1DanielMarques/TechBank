@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public abstract class Conta {
 
     private String titular;
@@ -12,6 +14,9 @@ public abstract class Conta {
 
     }
 
+    public void operacao(int resposta, ArrayList<Conta> litaContas) throws InterruptedException{
+    }
+
     public void saca(double valor) {
         if (valor > this.saldo) {
             throw new RuntimeException("Saldo INSUFICIENTE");
@@ -22,7 +27,7 @@ public abstract class Conta {
 
     public void transfere(double valor, Conta destino) {
 
-        if (valor < this.saldo) {
+        if (valor > this.saldo) {
             throw new RuntimeException("Saldo INSUFICIENTE");
         } else {
             this.saldo -= valor;
