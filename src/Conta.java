@@ -14,7 +14,7 @@ public abstract class Conta {
 
     }
 
-    public void operacao(int resposta, ArrayList<Conta> litaContas) throws InterruptedException{
+    public void operacao(int resposta, ArrayList<Conta> litaContas) throws InterruptedException {
     }
 
     public void saca(double valor) {
