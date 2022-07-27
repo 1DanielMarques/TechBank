@@ -1,7 +1,16 @@
+
+/**
+         * TechBank
+         * @version 3.0
+         * @author Daniel Marques <daniel.marques@edu.unifil.br>
+         * Date: 2022-07-27
+         */
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class App extends Entrada {
+
         public static void main(String[] args) throws Exception {
                 int resposta = 1;
 
