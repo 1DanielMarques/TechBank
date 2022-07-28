@@ -4,85 +4,33 @@
 O projeto simula a criação de uma conta bancária informando dados da pessoa que está criando a conta, qual tipo de conta (Conta Corrente ou Conta Poupança) e, além disso, é possível fazer certas operações como **Depositar** e **Sacar**.
 
 ## Getting Started
-<img width="700"   src="https://user-images.githubusercontent.com/100451032/181625144-bd45e06b-5a35-44d3-b444-c6b8c6896c9c.png" />
 
 
+ 1. Copie o link https
+
+<img width="700"   src="https://user-images.githubusercontent.com/100451032/181625144-bd45e06b-5a35-44d3-b444-c6b8c6896c9c.png" /><br>
+   2. Abra o terminal / Prompt de comando  
+   3. Vá para a pasta onde deseja **clonar** o repositório <br>
+   4. Dentro da pasta digite ``git clone https://github.com/mDanielSE/TechBank.git`` 
+
+ 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Para que o projeto possa rodar, é necessário ter instalado em sua máquina o ``Java JDK`` se possível na versão 17 <br>
+É necessário também ter uma IDE (Integrated Development Environment)
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Se você estiver usando o Visual Studio Code, para rodar o projeto siga as instruções abaixo: <br>
+1. Dentro da classe **App** <br>
+<img width="300" src="https://user-images.githubusercontent.com/100451032/181633068-de5e7260-c75a-4296-ae26-097baf1aaccb.png" />
+2. Clique no botão na parte superior direita: <br>
+ <img width= "200" src="https://user-images.githubusercontent.com/100451032/181633489-229adcd1-e427-4094-a72c-ef479390d282.png" />
+3. Ao abrir o terminal, clique:
+<img src="https://user-images.githubusercontent.com/100451032/181633767-ad575512-c53c-4830-b329-efaf2eef5001.png"/>
+ 
 
-### Break down into end to end tests
+## Author
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* **Daniel Marques**
