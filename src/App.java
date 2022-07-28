@@ -14,6 +14,10 @@ public class App extends Entrada {
         public static void main(String[] args) throws Exception {
                 int resposta = 1;
 
+                /*
+                 * To create an array of 'Conta' to verify if there is any account
+                 * with the same id (Because there isn't accounts with the same id)
+                 */
                 Entrada dados = new Entrada();
                 System.out.println("---Informe seus dados abaixo---");
                 dados.entrada();
@@ -24,7 +28,7 @@ public class App extends Entrada {
 
                 listaContas.add(cc);
                 listaContas.add(cp);
-
+                // Should I put this verification in the 'Entrada' class?
                 switch (dados.getResposta()) {
                         case 1:
                                 // Conta Corrente
@@ -43,7 +47,7 @@ public class App extends Entrada {
                 System.out.println("-----Dados Cadastrados-----");
                 System.out.println("Nome: " + p1.getNome());
                 System.out.println("Idade: " + p1.getIdade());
-                System.out.println("CEP: " + p1.getCep());
+                System.out.println("Cidade/Estado: " + p1.getCep());
                 System.out.println("Profissão: " + p1.getProfissao());
                 System.out.println("CPF: " + p1.getCpf());
                 System.out.println("Tipo de Conta: " + p1.getTipoConta());

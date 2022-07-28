@@ -9,28 +9,30 @@ public class Entrada {
     private int idade;
     private int resposta;
     protected String tipoConta;
+    private String preenche;
     Scanner sc = new Scanner(System.in);
 
     public void entrada() throws InterruptedException {
-        System.out.println("Informe seu nome: ");
+        System.out.println("-> Informe seu nome: ");
         nome = sc.nextLine();
 
-        System.out.println("Informe sua idade: ");
+        System.out.println("-> Informe sua idade: ");
         idade = sc.nextInt();
         if (idade < 18 || idade > 90) {
             // Should I throw an Exception?
             throw new RuntimeException("Você deve ser maior de idade (18 anos).");
         }
 
-        System.out.println("Informe seu CEP: ");
+        System.out.println("-> Informe Cidade/Estado: ");
         // Here you must write without an "space". Instead of that, use "underline _"
-        cep = sc.next();
-        System.out.println("Informe  sua profissão: ");
+        preenche = sc.nextLine();
+        cep = sc.nextLine();
+        System.out.println("-> Informe  sua profissão: ");
         // Here you must write without an "space". Instead of that, use "underline _"
-        profissao = sc.next();
+        profissao = sc.nextLine();
         Thread.sleep(100);
 
-        System.out.println("Informe seu CPF: ");
+        System.out.println("-> Informe seu CPF: ");
         // Here you must write without an "space".
         cpf = sc.next();
 
