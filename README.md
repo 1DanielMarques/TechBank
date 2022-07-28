@@ -1,11 +1,11 @@
 # TechBank 🚀
 
-TechBank foi desenvolvido para relembrar, fixar e aperfeiçoar conhecimentos em Java.
+*TechBank* foi desenvolvido para relembrar, fixar e aperfeiçoar conhecimentos em Java.<br>
 O projeto simula a criação de uma conta bancária informando dados da pessoa que está criando a conta, qual tipo de conta (Conta Corrente ou Conta Poupança) e, além disso, é possível fazer certas operações como **Depositar** e **Sacar**.
 
 ## Getting Started
+<img width="700"   src="https://user-images.githubusercontent.com/100451032/181625144-bd45e06b-5a35-44d3-b444-c6b8c6896c9c.png" />
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
