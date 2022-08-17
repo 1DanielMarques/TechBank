@@ -3,7 +3,7 @@
 *TechBank* foi desenvolvido para relembrar, fixar e aperfeiçoar conhecimentos em Java.<br>
 O projeto simula a criação de uma conta bancária informando dados da pessoa que está criando a conta, qual tipo de conta (Conta Corrente ou Conta Poupança) e, além disso, é possível fazer certas operações como **Depositar** e **Sacar**.
 
-## Getting Started
+## Iniciando
 
 
  1. Copie o link https
@@ -14,13 +14,13 @@ O projeto simula a criação de uma conta bancária informando dados da pessoa q
    4. Dentro da pasta digite ``git clone https://github.com/mDanielSE/TechBank.git`` 
 
  
-### Prerequisites
+### Pré-requisitos
 
 Para que o projeto possa rodar, é necessário ter instalado em sua máquina o ``Java JDK`` se possível na versão 17 <br>
 É necessário também ter uma IDE (Integrated Development Environment)
 
 
-## Running the tests
+## Testes
 
 Se você estiver usando o Visual Studio Code, para rodar o projeto siga as instruções abaixo: <br>
 1. Dentro da classe **App** <br>
@@ -31,6 +31,6 @@ Se você estiver usando o Visual Studio Code, para rodar o projeto siga as instr
 <img src="https://user-images.githubusercontent.com/100451032/181633767-ad575512-c53c-4830-b329-efaf2eef5001.png"/>
  
 
-## Author
+## Autor
 
 * **Daniel Marques**
