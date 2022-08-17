@@ -29,6 +29,10 @@ Se você estiver usando o Visual Studio Code, para rodar o projeto siga as instr
  <img width= "200" src="https://user-images.githubusercontent.com/100451032/181633489-229adcd1-e427-4094-a72c-ef479390d282.png" />
 3. Ao abrir o terminal, clique:
 <img src="https://user-images.githubusercontent.com/100451032/181633767-ad575512-c53c-4830-b329-efaf2eef5001.png"/>
+
+## Conhecimentos adquiridos <br>
+Com o projeto *TechBank* pude entender mais sobre a criação de classes, herança, polimorfismo, sobrecarga de métodos e programação orientada a objetos. 
+
  
 
 ## Autor
